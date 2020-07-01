@@ -18,7 +18,7 @@ struct player
 };
 
 struct player globalQ[30], Q[5][4];
-int dloc;			    // continent Dragon is on
+int dloc;			// continent Dragon is on
 int numP = 0;			// total number of human players
 int done = 0;			// number of done threads
 int doneT = 0;			// number of done threads
